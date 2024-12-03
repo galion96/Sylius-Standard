@@ -29,7 +29,7 @@ services:
         resource: '../src/Controller'
         tags: ['controller.service_arguments']
     
-    App\CoreBundle\Form\Exstension\CartItemTypeExtension:
+    App\CoreBundle\Form\Extension\CartItemTypeExtension:
         arguments:
-            $orderItemQuantityModifierLimit: 999
+            $orderItemQuantityModifierLimit: 1000
         tags: [ 'form.type_extension' ]

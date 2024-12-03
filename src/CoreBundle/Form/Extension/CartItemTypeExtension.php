@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace App\CoreBundle\Form\Exstension;
+namespace App\CoreBundle\Form\Extension;
 
 use Sylius\Bundle\OrderBundle\Form\Type\CartItemType;
 use Sylius\Bundle\ProductBundle\Form\Type\ProductVariantChoiceType;
