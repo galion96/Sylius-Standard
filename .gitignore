@@ -61,3 +61,6 @@ phpstan.neon
 ###> liip/imagine-bundle ###
 /public/media/cache/
 ###< liip/imagine-bundle ###
+.idea
+config/packages/csrf.yaml
+config/encryption/dev.key
